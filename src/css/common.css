@@ -1,7 +1,7 @@
 body {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
-    color: var(--text-color);
+    color: rgba(252, 249, 249, 0.4);
     background-color: #1c2225;
     line-height: normal;
     font-style: normal;
@@ -34,7 +34,7 @@ a {
 }
 
 .title {
-    color: var(--white-color);
+    color: #fff;
     font-size: 32px;
     font-weight: 500;
     line-height: 1.37;
