@@ -14,10 +14,14 @@ a {
 }
 
 .container {
+    min-width: 320px;
     max-width: 375px;
     padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
+}
+section{
+    padding: 40px 0;
 }
 
 .visually-hidden {
@@ -50,6 +54,9 @@ a {
         max-width: 768px;
         padding: 0 32px;
     }
+    section{
+        padding: 50px 0;
+    }
 
     .title {
         font-size: 44px;
@@ -61,6 +68,9 @@ a {
     .container {
         max-width: 1112px;
         padding: 0 15px;
+    }
+    section{
+        padding: 75px 0;
     }
 }
 
