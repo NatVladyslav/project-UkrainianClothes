@@ -11,9 +11,14 @@ margin-bottom: 40px;
 }
 
 .testimonials-list {
+    flex-wrap: nowrap;
+    gap: 26px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .testimonials-item {
+    width: calc((100% - 2* 26px) / 3);
 }
 
 .testimonials-item-container {
