@@ -20,14 +20,13 @@
   background-image: url(../img/about-us/elements-min.png);
   background-size: 458px 408px;
   background-repeat: no-repeat;
-  background-position: left 150px top 630px;
+  background-position: right -230px top 630px;
 }
 @media screen and (max-width: 768px) and (min-resolution: 192dpi) {
   .about-us {
     background-image: url(../img/about-us/elements@2x-min.png);
   }
 }
-
 @media screen and (min-width: 768px) {
   .about-us-title {
     font-size: 44px;
@@ -42,9 +41,10 @@
     width: 704px;
     height: 545px;
   }
+
   .about-us {
     background-size: 545px 484px;
-    background-position: left 380px top 530px;
+    background-position: right -150px top 530px;
   }
 }
 @media screen and (max-width: 1280px) and (min-resolution: 192dpi) {
@@ -52,6 +52,7 @@
     background-image: url(../img/about-us/elements@2x-min.png);
   }
 }
+
 @media screen and (min-width: 1280px) {
   .about-us-all-container {
     display: flex;
@@ -71,7 +72,7 @@
     margin-right: 50px;
   }
   .about-us {
-    background-position: left 850px top 200px;
+    background-position: right -120px top 210px;
   }
 }
 @media screen and (max-width: 1440px) and (min-resolution: 192dpi) {
