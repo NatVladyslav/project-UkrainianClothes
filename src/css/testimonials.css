@@ -1,18 +1,22 @@
-.testimonials {
-    
-}
 .container {
-
 }
+
+.testimonials-text {
+font-weight: 500;
+font-size: 44px;
+line-height: 145%;
+letter-spacing: -0.03em;
+margin-bottom: 40px;
+}
+
 .testimonials-list {
-
 }
+
 .testimonials-item {
-
 }
+
 .testimonials-item-container {
-
 }
-.testimonials-item-title {
 
+.testimonials-item-title {
 }
