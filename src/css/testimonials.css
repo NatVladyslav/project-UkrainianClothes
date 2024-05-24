@@ -20,8 +20,6 @@ margin-bottom: 64px;
 
 .testimonials-item {
     position: relative;
-    width: 376px;
-    height: 285px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
 }
@@ -33,6 +31,7 @@ margin-bottom: 64px;
     border-radius: 100%;
     margin-bottom: 14px;
     box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06);
+    background-color: #1c2225;
 }
 
 .testimonials-item-container {
