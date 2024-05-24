@@ -1,0 +1,18 @@
+/* < !------HERO-------> */
+.hero {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-title {
+    font-size: 44px;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+    max-width: 335px;
+    margin-bottom: 20px;
+}
