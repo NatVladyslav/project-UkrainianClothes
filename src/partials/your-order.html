@@ -1,1 +1,61 @@
-your-order
+<!-- ORDER SECTION -->
+
+<section>
+    <div class="order_background"></div>
+    <div class="container " id="order">
+        <div class="order_container">
+
+
+            <div class="order_image">
+                <picture>
+                    <source
+                        srcset="/img/order_section/Rectangle-desc-1x.jpg 1x, /img/order_section/Rectangle-desc-2x.jpg 2x"
+                        media="(min-width: 1280px)" />
+                    <source
+                        srcset="/img/order_section/Rectangle-tablet-1x.jpg 1x, /img/order_section/Rectangle-tablet-2x.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <img class="order-img" src="/img/order_section/Rectangle-mobile-1x.jpg" alt="vishivanka">
+                </picture>
+                <div class="order_img_back">
+                    <img src="../img/order_section/elements.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="order_form">
+                <h2 class="title title_marg "><span class="order_yellow_color">Your order</span> is our priority:
+                    Personalized approach and quality of service
+                </h2>
+                <form>
+                    <div class="form_container">
+                        <input class="form_input" type="text" id="user_full_name" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+                            required="" placeholder="Enter your full name">
+                    </div>
+                    <div class="form_container">
+                        <input class="form_input" type="text" id="user_email" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+                            required="" placeholder="Enter your full name">
+
+                    </div>
+                    <div>
+                        <textarea class="form_comments" name="" id="" placeholder="Comments"></textarea>
+
+                    </div>
+
+
+                </form>
+                <div class="order_btn_container">
+                    <button class="order_btn" type="submit">Send
+                        <svg class="order_icon" width="24" height="16">
+                            <use href="/img/order_section/icon/symbol-defs.svg#arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
