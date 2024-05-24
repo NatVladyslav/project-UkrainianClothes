@@ -20,6 +20,8 @@ margin-bottom: 40px;
 
 .testimonials-item {
     position: relative;
+    width: 376px;
+    height: 285px;
     width: calc((100% - 2* 26px) / 3);
 }
 
@@ -32,6 +34,8 @@ box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06)
 }
 
 .testimonials-item-container {
+    width: 340px;
+    height: 192px;
 }
 
 .testimonials-text-text {
