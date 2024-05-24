@@ -22,7 +22,8 @@ margin-bottom: 64px;
     position: relative;
     width: 376px;
     height: 285px;
-    width: calc((100% - 2* 26px) / 3);
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 4px;
 }
 
 .testimonials-img {
