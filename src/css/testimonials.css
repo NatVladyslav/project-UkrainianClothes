@@ -11,6 +11,7 @@ margin-bottom: 40px;
 }
 
 .testimonials-list {
+    display: flex;
     flex-wrap: nowrap;
     gap: 26px;
     padding-left: 0;
