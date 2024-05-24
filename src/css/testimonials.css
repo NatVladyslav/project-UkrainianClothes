@@ -36,6 +36,11 @@ margin-bottom: 64px;
 }
 
 .testimonials-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
     width: 340px;
     height: 192px;
 }
@@ -46,7 +51,6 @@ font-size: 20px;
 line-height: 150%;
 text-align: center;
 color: #fcf9f9;
-margin-bottom: 8px;
 }
 
 .testimonials-item-title {
