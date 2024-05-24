@@ -31,7 +31,7 @@ margin-bottom: 64px;
     border-radius: 100%;
     margin-bottom: 14px;
     box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06);
-    background-color: #1c2225;
+    fill: #1c2225;
 }
 
 .testimonials-item-container {
