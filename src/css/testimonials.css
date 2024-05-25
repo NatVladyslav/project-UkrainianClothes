@@ -19,6 +19,8 @@ margin-bottom: 118px;
 }
 
 .testimonials-item {
+    width: 376px;
+    height: 285px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
 }
