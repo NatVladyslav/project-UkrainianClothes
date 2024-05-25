@@ -33,6 +33,10 @@ margin-bottom: 40px;
     padding: 54px 18px 39px 18px;
 }
 
+.testimonials-item:nth-last-child {
+    display: none;
+}
+
 .testimonials-img {
     position: absolute;
     bottom: 247px;
