@@ -3,8 +3,10 @@
 
 .testimonials-text {
 font-weight: 500;
-font-size: 44px;
-line-height: 145%;
+/* font-size: 44px;
+line-height: 145%; */
+font-size: 32px;
+line-height: 137%;
 letter-spacing: -0.03em;
 color: #fcf9f9;
 margin-bottom: 40px;
@@ -30,7 +32,8 @@ margin-bottom: 40px;
     justify-content: center;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
-    padding: 54px 18px 39px 18px;
+    /* padding: 54px 18px 39px 18px; */
+    padding: 54px 22px 18px 22px;
 }
 
 .testimonials-item:not(:first-child) {
@@ -61,7 +64,8 @@ color: #fcf9f9;
 
 .testimonials-item-title {
 font-weight: 400;
-font-size: 16px;
+/* font-size: 16px; */
+font-size: 14px;
 text-align: center;
 letter-spacing: 0em;
 }
