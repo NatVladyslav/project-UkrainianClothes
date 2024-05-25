@@ -3,8 +3,8 @@
 
 .testimonials-text {
 font-weight: 500;
-font-size: 32px;
-line-height: 137%;
+font-size: 44px;
+line-height: 145%;
 letter-spacing: -0.03em;
 color: #fcf9f9;
 margin-bottom: 40px;
@@ -58,11 +58,9 @@ color: #fcf9f9;
 
 .testimonials-item-title {
 font-weight: 400;
-
-font-size: 14px;
+font-size: 16px;
 text-align: center;
-/* letter-spacing: 0em; */
-letter-spacing: 0.07em;
+letter-spacing: 0em;
 }
 
 @media screen and (max-width: 768px) {
