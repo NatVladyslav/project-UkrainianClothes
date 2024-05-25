@@ -1,6 +1,3 @@
-.container {
-}
-
 .testimonials-text {
 font-weight: 500;
 font-size: 44px;
@@ -11,8 +8,6 @@ margin-bottom: 40px;
 }
 
 .container-testimonials {
-    display: flex;
-    position: relative;
     padding: 24px 0px 0px 0px;
     height: 309px;  
 }
@@ -28,6 +23,7 @@ margin-bottom: 40px;
 .testimonials-item {
     display: flex;
     justify-content: center;
+    position: relative;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
     /* padding: 54px 18px 39px 18px; */
@@ -36,7 +32,7 @@ margin-bottom: 40px;
 
 .testimonials-img {
     position: absolute;
-    bottom: 247px;
+    bottom: 227px;
 }
 
 .testimonials-item-container {
