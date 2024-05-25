@@ -7,7 +7,7 @@ font-size: 44px;
 line-height: 145%;
 letter-spacing: -0.03em;
 color: #fcf9f9;
-margin-bottom: 64px;
+margin-bottom: 118px;
 }
 
 .testimonials-list {
@@ -19,7 +19,6 @@ margin-bottom: 64px;
 }
 
 .testimonials-item {
-    position: relative;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
 }
@@ -29,12 +28,11 @@ margin-bottom: 64px;
     bottom: 245px;
     right: 156px;
     border-radius: 100%;
-    margin-bottom: 14px;
     box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06);
-    fill: #1c2225;
-}
+    }
 
 .testimonials-item-container {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-start;
