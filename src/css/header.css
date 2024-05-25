@@ -72,12 +72,20 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
+    stroke: red;
     fill: #fcf9f9;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mobile-open-btn-icon {
-    fill: #ECD979;
+    stroke: #ECD979
+}
+
+.header-mobile-open-btn {
+    line-height: 0;
+    border: none;
+    background-color: transparent;
+    padding: 0;
 }
 
 @media screen and (min-width: 768px) {
