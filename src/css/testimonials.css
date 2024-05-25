@@ -10,6 +10,12 @@ color: #fcf9f9;
 margin-bottom: 118px;
 }
 
+.container-testimonials {
+    padding: 24px 0px 0px 0px;
+    width: 376px;
+    height: 309px;
+}
+
 .testimonials-list {
     display: flex;
     flex-wrap: nowrap;
