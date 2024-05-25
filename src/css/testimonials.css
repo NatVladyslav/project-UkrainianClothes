@@ -82,7 +82,7 @@ letter-spacing: 0.07em;
         font-size: 16px;
     }
     .testimonials-item:not(:last-child)(2) {
-        display: none;
+        display: flex;
       }
 
 
