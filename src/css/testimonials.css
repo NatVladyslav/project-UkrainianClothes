@@ -36,9 +36,7 @@ margin-bottom: 40px;
 .testimonials-img {
     position: absolute;
     bottom: 247px;
-    border-radius: 100%;
-    box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06);
-    }
+}
 
 .testimonials-item-container {
     display: flex;
