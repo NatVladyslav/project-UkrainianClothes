@@ -20,7 +20,7 @@
     <title>Vyshyvanka Vibes</title>
     
     <script type="module" crossorigin src="/project-UkrainianClothes/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-UkrainianClothes/assets/index-aa14d66d.css">
+    <link rel="stylesheet" href="/project-UkrainianClothes/assets/index-a429f14d.css">
   </head>
   <body>
     header
@@ -59,20 +59,29 @@
     <div class="about-us-pic-container">
       <picture class="about-us-pic">
         <source
-          srcset="/project-UkrainianClothes/assets/girl-and-boy-desktop-12911412.jpg 1x, /project-UkrainianClothes/assets/girl-and-boy-desktop@2x-4df95388.jpg 2x"
+          srcset="
+            ./img/about-us/girl-and-boy-desktop.jpg    1x,
+            ./img/about-us/girl-and-boy-desktop@2x.jpg 2x
+          "
           media="(min-width: 1158px)"
         />
         <source
-          srcset="/project-UkrainianClothes/assets/girl-and-boy-tablet-860ef0b3.jpg 1x, /project-UkrainianClothes/assets/girl-and-boy-tablet@2x-0729927d.jpg 2x"
+          srcset="
+            ./img/about-us/girl-and-boy-tablet.jpg    1x,
+            ./img/about-us/girl-and-boy-tablet@2x.jpg 2x
+          "
           media="(min-width: 768px)"
         />
         <source
-          srcset="/project-UkrainianClothes/assets/girl-and-boy-53df1c71.jpg 1x, /project-UkrainianClothes/assets/girl-and-boy@2x-37d31aee.jpg 2x"
+          srcset="
+            ./img/about-us/girl-and-boy.jpg    1x,
+            ./img/about-us/girl-and-boy@2x.jpg 2x
+          "
           media="(max-width: 767px)"
         />
         <img
           class="about-us-img"
-          src="/project-UkrainianClothes/assets/girl-and-boy-53df1c71.jpg"
+          src="./img/about-us/girl-and-boy.jpg"
           width="335"
           height="545"
           alt="girl and boy"
@@ -259,8 +268,69 @@
   </div>
 </section>
 
-      your-order
+      <!-- ORDER SECTION -->
 
+<section id="order">
+    <div class="order_background">
+
+    </div>
+    <div class="contaпiner ">
+        <div class="order_container">
+
+
+            <div class="order_image">
+                <picture>
+                    <source
+                        srcset="/project-UkrainianClothes/assets/Rectangle-desc-1x-1a96e138.jpg 1x, /project-UkrainianClothes/assets/Rectangle-desc-2x-a9cb1ceb.jpg 2x"
+                        media="(min-width: 1280px)" />
+                    <source
+                        srcset="/project-UkrainianClothes/assets/Rectangle-tablet-1x-6891f786.jpg 1x, /project-UkrainianClothes/assets/Rectangle-tablet-2x-63b8531a.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <img class="order-img" src="/img/order_section/Rectangle-mobile-1x.jpg" alt="vishivanka">
+                </picture>
+                <div class="order_img_back">
+                    <img src="../img/order_section/elements.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="order_form">
+                <h2 class="title title_marg "><span class="order_yellow_color">Your order</span> is our priority:
+                    Personalized approach and quality of service
+                </h2>
+                <form>
+                    <div class="form_container">
+                        <input class="form_input" type="text" id="user_full_name" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+                            required="" placeholder="Enter your full name">
+                    </div>
+                    <div class="form_container">
+                        <input class="form_input" type="email" id="user_email" required=""
+                            placeholder="Enter your email">
+
+                    </div>
+                    <div>
+                        <textarea class="form_comments" name="" id="" placeholder="Comments"></textarea>
+
+                    </div>
+
+
+                </form>
+                <div class="order_btn_container">
+                    <button class="order_btn" type="submit">Send
+                        <svg class="order_icon" width="24" height="16">
+                            <use href="/project-UkrainianClothes/assets/symbol-defs-b1dadcf7.svg#arrow"></use>
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
       <section class="testimonials">
     <div class="container">
     <h2>Testimonials</h2>
