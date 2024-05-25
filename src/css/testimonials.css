@@ -11,6 +11,7 @@ margin-bottom: 118px;
 }
 
 .testimonials-list {
+    position: relative;
     display: flex;
     flex-wrap: nowrap;
     gap: 26px;
@@ -33,7 +34,6 @@ margin-bottom: 118px;
     }
 
 .testimonials-item-container {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-start;
