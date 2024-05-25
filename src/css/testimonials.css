@@ -81,7 +81,7 @@ letter-spacing: 0.07em;
     .testimonials-item-title {
         font-size: 16px;
     }
-    .testimonials-item:nth-last-child {
+    .testimonials-item:nth-last-child(1) {
         display: none;
     }
 
