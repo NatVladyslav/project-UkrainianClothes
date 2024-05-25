@@ -28,7 +28,6 @@ margin-bottom: 40px;
 .testimonials-item {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
     /* padding: 54px 18px 39px 18px; */
@@ -81,6 +80,10 @@ letter-spacing: 0.07em;
     .testimonials-item-title {
         font-size: 16px;
     }
+
+    .testimonials-item:last-child {
+        display: none;
+      }
 
 }
 
