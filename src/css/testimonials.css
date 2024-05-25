@@ -91,4 +91,8 @@ letter-spacing: 0.07em;
 
 @media screen and (min-width: 1280px) {
 
+    .testimonials-item {
+        display: flex;
+    }
+
 }
