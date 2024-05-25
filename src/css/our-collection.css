@@ -2,14 +2,14 @@
   background-image: url(/img/our-collection/background/elements[1]-min.png);
   background-repeat: no-repeat;
   background-size: 199px 177px;
-  background-position: left calc(50% - 240px);
+  background-position: right calc(50% + 188px) top 298px;
 }
 
 @media (min-resolution: 192dpi) {
   .our-collection {
     background-image: url(/img/our-collection/background/elements@2x[1]-min.png);
     background-size: 199px 177px;
-    background-position: top 298px left calc(50% + 188px);
+    background-position: right calc(50% + 188px) top 298px;
   }
 }
 
@@ -53,9 +53,6 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #fcf9f9;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .our-collection-text {
@@ -93,6 +90,10 @@
 
   .collection-title {
     font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 342px;
   }
 
   .our-collection-text {
@@ -103,17 +104,24 @@
     background-image: url(/img/our-collection/background/elements[1]-min.png);
     background-repeat: no-repeat;
     background-size: 338px 300px;
+    background-position: right calc(50% + 384px) top 221px;
   }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .our-collection {
     background-image: url(/img/our-collection/background/elements@2x[1]-min.png);
+    background-repeat: no-repeat;
+    background-size: 338px 300px;
+    background-position: right calc(50% + 384px) top 221px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .our-collection-img {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     width: 380px;
   }
 
@@ -125,10 +133,16 @@
     width: calc((100% - 40px) / 3);
   }
 
+  .collection-title {
+    font-size: 16px;
+    width: 380px;
+  }
+
   .our-collection {
     background-image: url(/img/our-collection/background/elements[1]-min.png);
     background-repeat: no-repeat;
     background-size: 338px 300px;
+    background-position: right calc(50% + 640px) top 221px;
   }
 }
 
@@ -136,6 +150,7 @@
   .our-collection {
     background-image: url(/img/our-collection/background/elements@2x[1]-min.png);
     background-size: 338px 300px;
+    background-position: right calc(50% + 640px) top 221px;
   }
 }
 
@@ -148,6 +163,12 @@
     background-image: url(/img/our-collection/background/elements[1]-min.png);
     background-repeat: no-repeat;
     background-size: 338px 300px;
+    background-position: right calc(50% + 640px) top 231px;
+  }
+
+  .collection-title {
+    font-size: 18px;
+    width: 400px;
   }
 }
 
@@ -155,5 +176,6 @@
   .our-collection {
     background-image: url(/img/our-collection/background/elements@2x[1]-min.png);
     background-size: 338px 300px;
+    background-position: right calc(50% + 640px) top 231px;
   }
 }
