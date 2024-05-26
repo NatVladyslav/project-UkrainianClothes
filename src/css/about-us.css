@@ -10,14 +10,14 @@
   color: rgba(252, 249, 249, 0.4);
 }
 .about-us {
-  background-image: url(../img/about-us/elements-min.png);
+  background-image: url(/img/about-us/elements-min.png);
   background-size: 458px 408px;
   background-repeat: no-repeat;
   background-position: right -230px top 630px;
 }
 @media screen and (min-resolution: 192dpi) {
   .about-us {
-    background-image: url(../img/about-us/elements@2x-min.png);
+    background-image: url(/img/about-us/elements@2x-min.png);
   }
 }
 @media screen and (min-width: 768px) {
