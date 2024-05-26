@@ -23,8 +23,8 @@ margin-bottom: 64px;
     position: relative;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
-    /* padding: 54px 18px 39px 18px; */
-    padding: 54px 22px 18px 22px;
+    padding: 54px 18px 39px 18px;
+    
 }
 
 .testimonials-img {
@@ -65,9 +65,16 @@ letter-spacing: 0.2em;
     .testimonials-item {
       width: 348px;
       height: 286px;
+      padding: 40px 18px 18px 18px;
     }
 
     .testimonials-item:last-child {
       display: none;
     }
+
+    .testimonials-item-wrap {
+      width: 312px;
+      height: 214px;
+    }
+
   }
