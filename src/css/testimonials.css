@@ -52,20 +52,36 @@ margin-bottom: 8px;
 
 .testimonials-item-title {
 text-align: center;
-letter-spacing: 0.2em;
 }
 
 @media screen and (max-width: 768px) {
+
+  .testimonials-item {
+    width: 335px;
+    height: 243px;
+    padding: 54px 22px 18px 22px;
+  }
+
     .testimonials-item:not(:first-child) {
       display: none;
     }
+
+    .testimonials-item-wrap {
+      width: 291px;
+      height: 171px;
+    }
+
+    .testimonials-item-title {
+      font-size: 14px;
+      }
+
   }
   @media screen and (max-width: 1280px) {
 
     .testimonials-item {
       width: 348px;
       height: 286px;
-      padding: 40px 18px 18px 18px;
+      padding: 54px 18px 18px 18px;
     }
 
     .testimonials-item:last-child {
