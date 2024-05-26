@@ -43,17 +43,21 @@
     margin-bottom: 40px;
     margin-left: 20px;
     max-width: 155px;
-    transition: border-color #ecd979;
+    transition: border-color #ecd979 250ms cubic-bezier 0.4, 0, 0.2, 1;
 }
 
 .hero-btn:hover,
-.hero-btnn:focus {
+.hero-btn:focus {
     border-color: #ecd979;
 }
 
 .hero-icon-btn {
     fill: #ecd979;
 }
+.hero-icon-btn:hover {
+ transform: rotate(60deg);
+}
+
 
 .hero-img {
     border-radius: 4px;
@@ -89,7 +93,6 @@
         align-items: center;
         gap: 16px;
         position: absolute;
-        top: -26px;
         right: 32px;
     }
 
@@ -118,7 +121,7 @@
         max-width: 168px;
         margin-left: 141px;
         border: 1px solid rgba(252, 249, 249, 0.1);
-        transition: border-color var(--main-dur-func-transition);
+        transition: border-color 250ms cubic-bezier 0.4, 0, 0.2, 1;
     }
 
 
@@ -148,8 +151,8 @@
     }
 
     .hero-handmade {
-        top: 0;
-        right: 100px;
+        top: 14px;
+        right: 15px;
     }
    
     .hero-img {
