@@ -54,7 +54,7 @@ margin-bottom: 8px;
 text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
 
   .testimonials-item {
     width: 335px;
@@ -76,7 +76,7 @@ text-align: center;
       }
 
   }
-  @media screen and (max-width: 1280px) {
+  @media screen and (min-width: 768px) and (max-width: 1280px) {
 
     .testimonials-item {
       width: 348px;
