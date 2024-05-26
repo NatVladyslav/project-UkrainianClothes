@@ -1,14 +1,4 @@
 /* ============ HEADER STYLES ============ */
-a {
-    text-decoration: none;
-}
-
-ul,
-ol {
-
-    list-style-type: none;
-}
-
 .header-page {
     padding-top: 20px;
 }
