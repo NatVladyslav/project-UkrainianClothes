@@ -15,6 +15,9 @@
   background-repeat: no-repeat;
   background-position: right -230px top 630px;
 }
+.about-us-img {
+  border-radius: 4px;
+}
 @media screen and (min-resolution: 192dpi) {
   .about-us {
     background-image: url(/img/about-us/elements@2x-min.png);
