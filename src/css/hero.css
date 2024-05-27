@@ -10,11 +10,13 @@
 }
 
 .hero-title {
+    font-weight: 400;
     font-size: 44px;
     line-height: 1.23;
     letter-spacing: -0.03em;
     max-width: 335px;
     margin-bottom: 20px;
+    color: #fcf9f9
 }
 .hero-span-ukrainian {
     line-height: 54px;
@@ -54,8 +56,8 @@
 .hero-icon-btn {
     fill: #ecd979;
 }
-.hero-icon-btn:hover {
- transform: rotate(60deg);
+.hero-btn:hover, .hero-icon-btn {
+ transform: rotate(30deg);
 }
 
 
