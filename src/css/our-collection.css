@@ -18,6 +18,8 @@
 }
 
 .our-collection-title {
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 40px;
