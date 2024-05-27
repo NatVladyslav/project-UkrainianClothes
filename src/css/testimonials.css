@@ -85,6 +85,7 @@ text-align: center;
       }
 
     }
+<<<<<<< HEAD
   @media screen and (min-width: 1280px) {
 
     .testimonials-item {
@@ -102,3 +103,6 @@ text-align: center;
       }
 
   }
+=======
+  }
+>>>>>>> main

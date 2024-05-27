@@ -1,0 +1,129 @@
+/* ============ HEADER STYLES ============ */
+.header-page {
+    padding-top: 20px;
+}
+
+.header-page-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-page-menu,
+.header-page-phone {
+    display: none;
+}
+
+.header-page-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-social-list {
+    display: flex;
+    gap: 12px;
+}
+
+.header-social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    padding: 8px;
+    width: 44px;
+    height: 44px;
+    background: rgba(252, 249, 249, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.header-callback-container {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu-link {
+    line-height: 1.28571;
+    text-transform: uppercase;
+    color: #fcf9f9;
+}
+
+.header-social-list-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #fcf9f9;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-mobile-open-btn-icon {
+    stroke: #ECD979;
+
+}
+
+.header-mobile-open-btn {
+    line-height: 0;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .header-callback-container {
+        gap: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .header-page-navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .header-page-menu {
+        display: flex;
+        gap: 25px;
+    }
+
+    .header-menu-current-link {
+        color: #ecd979;
+    }
+
+    .header-menu-link:hover {
+        color: #ecd979;
+    }
+
+    .header-mobile-open-btn {
+        display: none;
+    }
+
+    .header-social-list-link:hover {
+        border: 1px solid #ecd979;
+        background: none;
+    }
+
+    .header-page-phone {
+        display: block;
+        border: 1px solid rgba(252, 249, 249, 0.1);
+        border-radius: 15px;
+        padding: 14px 28px;
+        height: 48px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #fcf9f9;
+        line-height: 1.42857;
+
+    }
+
+    .header-page-phone:hover {
+        border: 1px solid #ecd979;
+    }
+}
