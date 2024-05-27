@@ -1,14 +1,4 @@
 /* ============ HEADER STYLES ============ */
-a {
-    text-decoration: none;
-}
-
-ul,
-ol {
-
-    list-style-type: none;
-}
-
 .header-page {
     padding-top: 20px;
 }
@@ -19,12 +9,6 @@ ol {
     align-items: center;
 }
 
-.header-page-navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-}
 
 .header-page-menu,
 .header-page-phone {
@@ -34,6 +18,7 @@ ol {
 .header-page-logo {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .header-social-list {
@@ -72,7 +57,6 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
-    stroke: red;
     fill: #fcf9f9;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -97,6 +81,12 @@ ol {
 }
 
 @media screen and (min-width: 1280px) {
+    .header-page-navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
 
     .header-page-menu {
         display: flex;
