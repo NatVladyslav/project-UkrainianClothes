@@ -44,7 +44,7 @@ margin-bottom: 64px;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    width: 100%;
+    width: 291px;
     height: 171px;
 }
 
@@ -78,8 +78,9 @@ text-align: center;
   }
 
    .testimonials-item-wrap {
-      width: 100%;
+      width: 312px;
       height: 214px;
+  
     }
 
     .testimonials-item-title {
@@ -100,8 +101,8 @@ text-align: center;
     }
 
     .testimonials-item-wrap {
-      width: 100%;
-      height: 192px;
-    }
+      width: 340px;
+      height: 213px;
+      }
 
   }
