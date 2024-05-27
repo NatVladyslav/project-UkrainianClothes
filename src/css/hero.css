@@ -27,7 +27,13 @@
 .hero-handmade {
     display: none;
 }
+.hero-handmade-svg {
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.hero-handmade:hover .hero-handmade-svg {
+    transform: rotate(180deg);
+}
 .hero-btn {
     display: flex;
     justify-content: center;
