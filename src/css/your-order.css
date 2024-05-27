@@ -96,9 +96,13 @@
 .order_icon {
   transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 10px;
+  fill: #ecd979;
 }
 .order_btn:hover .order_icon {
   transform: rotate(30deg);
+}
+.order-img {
+  border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) {
@@ -162,6 +166,7 @@
     position: relative;
   }
   .order_image {
+    max-width: 588px;
     display: block;
     order: 0;
     margin-top: 0;
@@ -174,8 +179,8 @@
   .order-img {
     max-width: none;
     height: 521px;
-    margin-top: 0;
   }
+
   .title {
     max-width: 542px;
   }
