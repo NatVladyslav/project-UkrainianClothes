@@ -60,7 +60,7 @@ margin-bottom: 8px;
 text-align: center;
 }
 
-@media screenand (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .testimonials-item {
     width: calc((100% - 32px) / 2);
@@ -101,8 +101,3 @@ text-align: center;
     .testimonials-item-wrap {
       width: 100%;
       }
-
-  }
-=======
-  }
->>>>>>> main
