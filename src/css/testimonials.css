@@ -73,10 +73,6 @@ text-align: center;
     padding: 54px 18px 18px 18px;
   }
 
-  .testimonials-list{
-    gap: 32px;
-  }
-
   .testimonials-item:not(:nth-child(3)) {
     display: block;
   }
