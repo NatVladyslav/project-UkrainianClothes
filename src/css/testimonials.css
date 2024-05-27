@@ -74,6 +74,10 @@ text-align: center;
     gap: 32px;
   }
 
+  .testimonials-item:not(:first-child) {
+    display: block;
+}
+
   .testimonials-item:last-child {
     display: block;
   }
