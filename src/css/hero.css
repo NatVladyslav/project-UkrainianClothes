@@ -56,7 +56,7 @@
 .hero-icon-btn {
     fill: #ecd979;
 }
-.hero-btn:hover, .hero-icon-btn {
+.hero-btn:hover .hero-icon-btn {
  transform: rotate(30deg);
 }
 
