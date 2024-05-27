@@ -9,7 +9,6 @@
     align-items: center;
 }
 
-
 .header-page-menu,
 .header-page-phone {
     display: none;
@@ -48,7 +47,7 @@
 }
 
 .header-menu-link {
-    line-height: 1.28571;
+    line-height: 1.28;
     text-transform: uppercase;
     color: #fcf9f9;
 }
@@ -114,12 +113,12 @@
         display: block;
         border: 1px solid rgba(252, 249, 249, 0.1);
         border-radius: 15px;
-         padding: 14px 28px;  
+        padding: 14px 28px;
         height: 49px;
         font-weight: 400;
-        text-transform: uppercase;       
+        text-transform: uppercase;
         color: #fcf9f9;
-         line-height: 1.42; 
+        line-height: 1.43;
         font-style: normal;
     }
 
@@ -128,8 +127,8 @@
     }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
     .header-page {
-            padding-top: 18px;
-        }
+        padding-top: 18px;
+    }
 }
