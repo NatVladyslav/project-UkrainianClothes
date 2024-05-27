@@ -114,12 +114,13 @@
         display: block;
         border: 1px solid rgba(252, 249, 249, 0.1);
         border-radius: 15px;
-        padding: 14px 28px;
+          padding: 14px 28px; 
         height: 48px;
         font-weight: 400;
-        text-transform: uppercase;
+        text-transform: uppercase;       
         color: #fcf9f9;
-        line-height: 1.42857;
+        line-height: 1.43;
+        font-style: normal;
 
     }
 
