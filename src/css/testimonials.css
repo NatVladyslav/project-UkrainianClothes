@@ -74,7 +74,7 @@ text-align: center;
     gap: 32px;
   }
 
-  .testimonials-item:nth-child(3n) {
+  .testimonials-item:last-child {
     display: block;
   }
 
