@@ -89,7 +89,9 @@ text-align: center;
 
     .testimonials-item {
       width: calc((100% - 52px) / 3);
-      }
+      height: 286px;
+      padding: 54px 18px 18px 18px;
+    }
 
     .testimonials-item:not(:first-child) {
       display: block;
