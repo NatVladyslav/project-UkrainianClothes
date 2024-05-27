@@ -8,6 +8,7 @@ margin-bottom: 64px;
 }
 
 .testimonials-list {
+  width: 100%;
     display: flex;
     flex-wrap: nowrap;
     gap: 26px;
@@ -16,20 +17,26 @@ margin-bottom: 64px;
 }
 
 .testimonials-item {
-    width: 376px;
+    width: 100%;
     height: 285px;
     display: flex;
     justify-content: center;
     position: relative;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 4px;
-    padding: 54px 18px 39px 18px;
+    /* padding: 54px 18px 39px 18px; */
+    padding: 54px 18px 18px 18px;
     
 }
 
+.testimonials-item:not(:first-child) {
+  display: none;
+
 .testimonials-img {
     position: absolute;
-    bottom: 247px;
+    top: -24px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .testimonials-item-wrap {
@@ -37,7 +44,7 @@ margin-bottom: 64px;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    width: 340px;
+    width: 100%;
     height: 192px;
 }
 
@@ -54,23 +61,23 @@ margin-bottom: 8px;
 text-align: center;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screenand (min-width: 768px) {
 
   .testimonials-item {
-    width: 335px;
+    width: calc((100% - 32px) / 2);
     height: 243px;
     padding: 54px 22px 18px 22px;
   }
 
-    .testimonials-item:not(:first-child) {
-      display: none;
-    }
+  .testimonials-list{
+    gap: 32px;
+  }
 
-    .testimonials-img {
-      bottom: 206px;
-    }
+  .testimonials-item:not(:nth-child(3)) {
+    display: block;
+  }
 
-    .testimonials-item-wrap {
+   .testimonials-item-wrap {
       width: 291px;
       height: 171px;
     }
@@ -80,16 +87,16 @@ text-align: center;
       }
 
   }
-  @media screen and (min-width: 768px) and (max-width: 1280px) {
+  @media screen and (min-width: 1280px) {
 
     .testimonials-item {
-      width: 348px;
+      width: calc((100% - 52px) / 3);
       height: 286px;
-      padding: 54px 18px 18px 18px;
+      padding: 54px 18px 39px 18px;
     }
 
-    .testimonials-item:last-child {
-      display: none;
+    .testimonials-item:not(:first-child) {
+      display: block;
     }
 
     .testimonials-item-wrap {
