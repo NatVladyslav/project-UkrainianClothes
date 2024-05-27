@@ -99,6 +99,10 @@ text-align: center;
       padding: 54px 18px 18px 18px;
     }
 
+    .testimonials-list{
+      gap: 26px;
+    }
+
     .testimonials-item:not(:first-child) {
       display: block;
     }
