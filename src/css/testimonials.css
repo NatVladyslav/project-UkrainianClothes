@@ -1,7 +1,5 @@
 .testimonials-text {
 font-weight: 500;
-/* font-size: 44px;
-line-height: 145%; */
 font-size: 32px;
 line-height: 137%;
 letter-spacing: -0.03em;
@@ -64,6 +62,11 @@ text-align: center;
 
 @media screen and (min-width: 768px) {
 
+  .testimonials-text {
+    font-size: 44px;
+    line-height: 145%;
+  }
+
   .testimonials-item {
     width: calc((100% - 32px) / 2);
     height: 286px;
@@ -83,7 +86,7 @@ text-align: center;
       }
 
     .testimonials-item-title {
-      font-size: 14px;
+      font-size: 16px;
       }
 
     }
