@@ -20,7 +20,7 @@
     <title>Vyshyvanka Vibes</title>
     
     <script type="module" crossorigin src="/project-UkrainianClothes/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-UkrainianClothes/assets/index-e163ea49.css">
+    <link rel="stylesheet" href="/project-UkrainianClothes/assets/index-c99ccaf5.css">
   </head>
   <body>
     <header class="header-page" id="header">
@@ -42,7 +42,7 @@
           <a class="header-menu-link" href="#order">Customer Order</a>
         </li>
         <li class="header-menu-item">
-          <a class="header-menu-link" href="#testimonials">Testimonial</a>
+          <a class="header-menu-link" href="#testimonials">Testimonials</a>
         </li>
       </ul>
     </nav>
@@ -93,37 +93,53 @@
 
     <main>
       <section class="hero">
-    <div class="container hero-container">
-        <div class="hero-header">
-            <h1 class="hero-title">
-                Reviving the traditional
-                <span class="hero-span-ukrainian">Ukrainian</span> artistry in every
-                stitch.
-            </h1>
-            <button class="hero-btn" type="submit">Order
-                <svg class="hero-icon-btn" width="24" height="17">
-                    <use href="/project-UkrainianClothes/assets/icons-5e53effa.svg#icon-arrow"></use>
-                </svg>
-            </button>
-        </div>
-        <div class="hero-handmade">
-            <svg class="hero-handmade-svg" width="52" height="51">
-                <use href="/project-UkrainianClothes/assets/icons-5e53effa.svg#icon-star-hero"></use>
-            </svg>
-            <p class="hero-handmade-text">all embroidery is made by hand</p>
-        </div>
-    <div class="hero-picture">
-        <picture>
-           
-            <source srcset="/project-UkrainianClothes/assets/hero-desktop-min-6d0e7b74.jpg 1x, /project-UkrainianClothes/assets/hero-desktop@2x-min-38b62734.jpg 2x" media="(min-width: 1280px)" />
-            <source srcset="/project-UkrainianClothes/assets/hero-tablet-min-6b4521b3.jpg 1x, /project-UkrainianClothes/assets/hero-tablet@2x-min-1b13097b.jpg 2x" media="(min-width: 768px)" />
-                       
-            <source srcset="/project-UkrainianClothes/assets/hero-mob-min-b35edc5e.jpg 1x, /project-UkrainianClothes/assets/hero-mob@2x-min-789fd78e.jpg 2x" media="(max-width: 767px)" />
-            <img class="hero-img" src="/project-UkrainianClothes/assets/hero-desktop-min-6d0e7b74.jpg" alt="girl" width="413" height="575" />
-        </picture>
-        </div>
+  <div class="container hero-container">
+    <div class="hero-header">
+      <h1 class="hero-title">
+        Reviving the traditional
+        <span class="hero-span-ukrainian">Ukrainian</span> artistry in every
+        stitch.
+      </h1>
+      <a class="hero-btn" href="#your-order"
+        >Order
+        <svg class="hero-icon-btn" width="24" height="17">
+          <use href="/project-UkrainianClothes/assets/icons-5e53effa.svg#icon-arrow"></use>
+        </svg>
+      </a>
     </div>
-    </section>
+    <div class="hero-handmade">
+      <svg class="hero-handmade-svg" width="52" height="51">
+        <use href="/project-UkrainianClothes/assets/icons-5e53effa.svg#icon-star-hero"></use>
+      </svg>
+      <p class="hero-handmade-text">all embroidery is made by hand</p>
+    </div>
+    <div class="hero-picture">
+      <picture>
+        <source
+          srcset="/project-UkrainianClothes/assets/hero-desktop-min-6d0e7b74.jpg 1x, /project-UkrainianClothes/assets/hero-desktop@2x-min-38b62734.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/project-UkrainianClothes/assets/hero-tablet-min-6b4521b3.jpg 1x, /project-UkrainianClothes/assets/hero-tablet@2x-min-1b13097b.jpg 2x"
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="/project-UkrainianClothes/assets/hero-mob-min-b35edc5e.jpg 1x, /project-UkrainianClothes/assets/hero-mob@2x-min-789fd78e.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          class="hero-img"
+          src="/project-UkrainianClothes/assets/hero-desktop-min-6d0e7b74.jpg"
+          alt="girl"
+          width="413"
+          height="575"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
       <section class="about-us" id="about-us">
   <div class="container about-us-all-container">
     <div class="about-us-container">
@@ -443,8 +459,8 @@
         <div>
           <textarea
             class="form_comments"
-            name=""
-            id=""
+            name="form-comments"
+            id="form-comments"
             placeholder="Comments"
           ></textarea>
         </div>
@@ -537,22 +553,30 @@
 
     </main>
     <footer class="footer" id="footer">
-    <div class="container footer-container">
-        <nav class="footer-nav">
-        <ul class="footer-menu-list">
-            <div class="footer-menu-container">
-            <li class="footer-menu-item"><a class="footer-menu-link" href="#about-us">About us</a></li>
-            <li class="footer-menu-item"><a class="footer-menu-link" href="#collection">Our collection</a></li>
-        </div>
-        <div class="footer-menu-container">
-            <li class="footer-menu-item"><a class="footer-menu-link" href="#order">Customer order</a></li>
-            <li class="footer-menu-item"><a class="footer-menu-link" href="#testimonials">Testimonials</a></li>
-        </div>
-        </ul>
+  <div class="container footer-container">
+    <nav class="footer-nav">
+      <ul class="footer-menu-list">
+        <li class="footer-menu-item">
+          <a class="footer-menu-link" href="#about-us">About us</a>
+        </li>
+        <li class="footer-menu-item">
+          <a class="footer-menu-link" href="#collection">Our collection</a>
+        </li>
+        <li class="footer-menu-item">
+          <a class="footer-menu-link" href="#order">Customer order</a>
+        </li>
+        <li class="footer-menu-item">
+          <a class="footer-menu-link" href="#testimonials">Testimonials</a>
+        </li>
+      </ul>
     </nav>
-        <h2 class="footer-subtitle">A touch of <span class="footer-subtitle-span">Ukrainian</span> culture in every embroidery</h2>
-    </div>
+    <h2 class="footer-subtitle">
+      A touch of <span class="footer-subtitle-span">Ukrainian</span> culture in
+      every embroidery
+    </h2>
+  </div>
 </footer>
+
     <div class="mobile-backdrop">
   <div class="mobile-menu">
     <div class="mobile-header-line">
@@ -573,7 +597,7 @@
           <a href="#about-us" class="mobile-nav-link">About us</a>
         </li>
         <li class="mobile-nav-item">
-          <a href="#colection" class="mobile-nav-link">Our collection </a>
+          <a href="#collection" class="mobile-nav-link">Our collection </a>
         </li>
         <li class="mobile-nav-item">
           <a href="#order" class="mobile-nav-link">Customer order</a>
