@@ -88,6 +88,7 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order_btn:hover {
   border: 1px solid #ecd979;
