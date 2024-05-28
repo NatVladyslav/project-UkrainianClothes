@@ -13,7 +13,7 @@ headerMenu.addEventListener('click', e => e.stopImmediatePropagation());
 for (let i = 0; i < liMenu.length; i++) {
   liMenu[i].addEventListener('click', switchClass);
 }
-// SCROLL FUNCTION
+// ============================SCROLL FUNCTION
 let scrollToHeaderLink = document.getElementById('scrollToHeaderLink');
 window.onscroll = function () {
   scrollFunction();
@@ -32,3 +32,7 @@ scrollToHeaderLink.addEventListener('click', function (e) {
     behavior: 'smooth',
   });
 });
+// =======================Flip Card===================================
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
