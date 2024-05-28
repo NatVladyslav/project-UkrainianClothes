@@ -34,9 +34,11 @@
     align-items: center;
     font-size: 14px;
     font-weight: 600;
+    background-color: transparent;
     letter-spacing: -0.04em;
     text-transform: uppercase;
     height: 50px;
+    width: 168px;
     gap: 10px;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
