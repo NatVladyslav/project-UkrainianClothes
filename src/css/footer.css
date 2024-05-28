@@ -73,7 +73,7 @@ color: #FCF9F9;
 }
 @media screen and (min-width: 1280px){
     .footer {
-        padding-left: 50px;
+        border-top: 1px solid rgba(252, 249, 249, 0.1);
         background-image: url(/img/footer/yellow-1x.png);
         background-size: 595px 528px;
         background-position: right -259px top -61px ;
@@ -87,6 +87,12 @@ color: #FCF9F9;
             }
     .footer-container {
         padding: 0;
+        width: 1180px;
+        justify-content: center;
+        
+    }
+    .footer-menu-link:hover {
+        color: #ecd979;
     }
     .footer-subtitle {
         margin-top: 117px;
@@ -98,7 +104,11 @@ color: #FCF9F9;
 
 @media screen and (min-width: 1440px) {
     .footer {
-        padding-left: 100px;
+        
         background-position: right -99px top -61px ;
+    }
+    .footer-container{
+        width: 1240px;
+        
     }
 }
