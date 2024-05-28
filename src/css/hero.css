@@ -65,7 +65,13 @@
  transform: rotate(30deg);
  
 }
+.hero-handmade-svg {
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.hero-handmade:hover .hero-handmade-svg {
+    transform: rotate(180deg);
+}
 
 .hero-img {
     border-radius: 4px;
