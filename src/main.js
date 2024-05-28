@@ -13,3 +13,22 @@ headerMobMenu.addEventListener("click", e => e.stopImmediatePropagation());
 for (let i = 0; i < linksMenu.length; i++) {
   linksMenu[i].addEventListener("click", toggleClass);
 }
+// SCROLL FUNCTION
+let scrollToHeaderLink = document.getElementById('scrollToHeaderLink');
+window.onscroll = function () {
+  scrollFunction();
+};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    scrollToHeaderLink.style.display = 'block';
+  } else {
+    scrollToHeaderLink.style.display = 'none';
+  }
+}
+scrollToHeaderLink.addEventListener('click', function (e) {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+});
