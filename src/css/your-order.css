@@ -7,7 +7,7 @@
 .order_background {
   background-image: image-set(
     url('/img/order_section/background-1x.jpg') 1x,
-    url('/img/order_section/background-1x.jpg') 2x
+    url('/img/order_section/background-2x.jpg') 2x
   );
   background-size: cover;
   background-position: top;
@@ -87,6 +87,7 @@
   color: #fcf9f9;
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 .order_btn:hover {
   border: 1px solid #ecd979;
@@ -109,6 +110,7 @@
     min-width: 168px;
     height: 50px;
     font-size: 16px;
+    margin: 0;
   }
   .order_background {
     background-image: image-set(
